@@ -1,4 +1,4 @@
-Связь один ко многим, будем использовать JOIN<br>
+Связь один ко многим, будем использовать JOIN, что бы склеить таблицы<br>
 
 SELECT Products.ProductName, ISNULL(Categories.CategoryName, 'Без категории') AS CategoryName
 FROM Products
